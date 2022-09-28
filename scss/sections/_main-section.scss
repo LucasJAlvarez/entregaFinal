@@ -1,0 +1,32 @@
+/* INICIO DE EDICION DE SECCION UNO */
+.sectionOne {
+    grid-template-areas:
+        "titleOne titleOne titleOne"
+        "imgOne imgOne imgOne"
+        "imgOne imgOne imgOne"
+        "imgOne imgOne imgOne";
+    grid-area: sectionOne;
+
+    background-color: $azul;
+    padding: 2%;
+    padding-bottom: 50px;
+     img {
+        border: 5px solid $lima;
+    
+         }
+}
+
+
+.titleOne {
+    grid-area: titleOne;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid $gris;
+    background-color: $bosque;
+    :hover {
+        background-color: $verde;
+    }
+}
+
+/* FIN EDICION SECCION UNO */
+

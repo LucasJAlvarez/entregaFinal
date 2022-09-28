@@ -6,7 +6,12 @@
 
 @import './variables/colores';
 @import './sections/header';
-
+@import './sections/main-section';
+@import './sections/footer';
 body {
     background-color: $azul;
+
 }
+
+
+
