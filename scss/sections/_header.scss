@@ -1,0 +1,9 @@
+nav{
+    background-color: $verde ;
+    color: $gris;
+    li{
+        :hover {
+            background-color: $bosque;
+        }
+    }
+}
