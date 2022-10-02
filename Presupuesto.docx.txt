@@ -1,0 +1,100 @@
+﻿LOGO
+Cel: ------
+E-Mail:-------@gmail.com
+
+
+
+
+  
+
+
+
+
+
+
+
+Fecha: 02/10/2022
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+A quien corresponda:
+
+
+
+
+
+
+	Descripción
+	Cantidad
+	Unidad
+	Precio/ud.
+	Importe total
+	1.
+	Diseño
+	120
+	hs
+	$800(arg)
+	$96.000
+	2.
+	Implementación
+	25
+	hs
+	$1250 (arg)
+	$32000
+	
+
+
+
+Subtotal sin IVA                                                                        -
+
+
+IVA 21 %.                                                                                -
+
+
+TOTAL ($ arg)                                                                        -
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les saludamos atentamente,
+------
+
+
+
+
+
+
+  
+
+LOGO
+
+
+	
+
+	Cel:---------
+E-Mail: --------@gmail.com
