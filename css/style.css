@@ -1,14 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,200;1,900&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
 
 /* Color Theme Swatches in Hex */
-nav {
-  background-color: #6A8C69;
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #C2C0A6;
+  margin: 2%;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .card img {
+    width: 100%;
+    margin: 2px;
+    padding: 13px; }
+  .card form {
+    padding: 20px; }
+
+.button {
+  list-style: none;
+  background-color: #A8B545;
+  padding: 5px;
+  border-radius: 30%;
+  width: 110px;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+  .button:hover {
+    background-color: #C2C0A6; }
+
+.header nav {
+  margin-top: 0%;
+  background-color: #6a8c69e0;
   color: #C2C0A6; }
-  nav li :hover {
+  .header nav li :hover {
     background-color: #53736A; }
+
+.parrafo {
+  color: #C2C0A6;
+  margin: 5%;
+  text-align: center; }
+
+.nav-link {
+  color: #C2C0A6; }
+
+.banner img {
+  display: block;
+  width: 100vw;
+  margin-top: 2%; }
 
 /* INICIO DE EDICION DE SECCION UNO */
 .sectionOne {
@@ -21,15 +61,19 @@ nav {
     border: 5px solid #A8B545; }
 
 .titleOne {
+  display: block;
   grid-area: titleOne;
-  margin: 15px;
+  margin-bottom: 10px;
   text-align: center;
   border: 1px solid #C2C0A6;
   background-color: #53736A; }
   .titleOne :hover {
     background-color: #6A8C69; }
 
-/* FIN EDICION SECCION UNO */
+.img {
+  border: 1px solid #C2C0A6;
+  margin: 0 15%; }
+
 /* COMIENZO EDICION FOOTER */
 .footer {
   display: grid;
@@ -42,10 +86,9 @@ nav {
 
 .footerLogo {
   grid-area: footerLogo; }
-
-.footerLogo img {
-  height: 100px;
-  margin: 5px; }
+  .footerLogo img {
+    height: 80px;
+    margin: 5px; }
 
 .social {
   grid-area: social;
@@ -56,12 +99,41 @@ nav {
   justify-content: space-around;
   margin: 5px;
   margin-top: 15px; }
-
-.social a {
-  background-color: antiquewhite;
-  border: 1px solid black;
-  padding: 2px; }
+  .social a {
+    background-color: #A8B545;
+    border: 1px solid #C2C0A6;
+    padding: 2px;
+    border-radius: 15%;
+    text-decoration: none; }
+    .social a:hover {
+      color: #C2C0A6;
+      background-color: #53736A;
+      border: 1px solid #6A8C69; }
 
 /* FIN EDICIOIN FOOTER */
+.titleTwo {
+  display: block;
+  background-color: #53736A;
+  border: 1px solid #C2C0A6;
+  margin: 3% auto;
+  text-align: center; }
+  .titleTwo:hover {
+    background-color: #024554;
+    color: #C2C0A6; }
+
+.nosotros {
+  background-image: url(../../images/nosotros.jpg); }
+  .nosotros .parrafo1 {
+    width: 80%;
+    margin: 5%;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900; }
+
+.map {
+  width: 100%;
+  margin-bottom: 2%; }
+
 body {
-  background-color: #024554; }
+  background-color: #024554;
+  font-family: 'Montserrat', sans-serif; }

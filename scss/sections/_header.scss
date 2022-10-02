@@ -1,9 +1,28 @@
-nav{
-    background-color: $verde ;
-    color: $gris;
-    li{
-        :hover {
-            background-color: $bosque;
+.header{
+    nav{
+        margin-top: 0%;
+        background-color: $verdet;
+        color: $gris;
+        li{
+            :hover {
+                background-color: $bosque;
+            }
         }
     }
+}
+
+
+.parrafo{
+    color: $gris;
+    margin: 5%;
+    text-align: center;
+}
+
+.nav-link{
+    color: $gris;
+}
+.banner img{
+    display: block;
+    width: 100vw;
+    margin-top: 2%;
 }

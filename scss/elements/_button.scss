@@ -1,0 +1,12 @@
+.button{
+    list-style: none;
+    background-color: $lima;
+    padding: 5px;
+    border-radius: 30%; 
+    width: 110px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+    &:hover{
+        background-color: $gris;
+    }
+}

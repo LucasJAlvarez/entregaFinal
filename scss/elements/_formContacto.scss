@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: $gris;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img {
+        width: 100%;
+        margin: 2px;
+        padding: 13px;
+    }
+    form {
+        padding: 20px;        
+    }
+}
+

@@ -5,13 +5,17 @@
 }
 
 @import './variables/colores';
+@import './variables/fonts';
+@import './elements/formContacto';
+@import './elements/button';
 @import './sections/header';
 @import './sections/main-section';
 @import './sections/footer';
+@import './sections/productos';
+@import './sections/nosotros';
+
+
 body {
     background-color: $azul;
-
+    font-family: 'Montserrat', sans-serif;
 }
-
-
-

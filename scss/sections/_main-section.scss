@@ -18,8 +18,9 @@
 
 
 .titleOne {
+    display: block;
     grid-area: titleOne;
-    margin: 15px;
+    margin-bottom: 10px;
     text-align: center;
     border: 1px solid $gris;
     background-color: $bosque;
@@ -28,5 +29,10 @@
     }
 }
 
-/* FIN EDICION SECCION UNO */
+.img {
+    border: 1px solid $gris;
+    margin: 0 15%;
+}
+
+
 

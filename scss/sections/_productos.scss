@@ -1,0 +1,12 @@
+.titleTwo{
+    display: block;
+    background-color: $bosque;
+    border: 1px solid $gris;
+    margin: 3% auto;
+    text-align: center;
+    &:hover {
+        background-color: $azul;
+        color: $gris;
+        
+    }
+}
